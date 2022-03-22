@@ -1,6 +1,5 @@
 import { makeStyles } from '@material-ui/core';
 import React from 'react';
-import BackgroundImage from "../Images/backgroundImage.jpg";
 import Line from './Line';
 
 const Home = () => {
@@ -8,7 +7,7 @@ const Home = () => {
   return (
     <div className={classes.root}>
         <h2 className={classes.hi}>
-            hi! I'm
+            Hola! Soy
         </h2>
         <h1 className={classes.name}>
             Francisco

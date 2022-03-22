@@ -2,7 +2,7 @@ import { makeStyles } from '@material-ui/core';
 import { FaGithub } from "@react-icons/all-files/fa/FaGithub";
 import { FaLinkedin } from "@react-icons/all-files/fa/FaLinkedin";
 import { FaCloudDownloadAlt } from "@react-icons/all-files/fa/FaCloudDownloadAlt";
-import CV from '../Images/FranciscoFerraro-combinado.pdf'
+import CV from '../Images/Francisco Ferraro-combinado.pdf'
 
 
 const ContactMe = () => {
@@ -15,7 +15,7 @@ const ContactMe = () => {
             <ul className={classes.ul}>
                 <li><a href="https://github.com/Franciscof94">Github</a><FaGithub className={classes.icons} /></li>
                 <li><a href="https://www.linkedin.com/in/franciscoferraro/">Linkedin</a><FaLinkedin className={classes.icons} /></li>
-                <li><a href={CV} download='FranciscoFerraro.pdf'>Resumee</a><FaCloudDownloadAlt className={classes.icons} /></li>
+                <li><a href={CV} download='FranciscoFerraro.pdf'>Curriculum</a><FaCloudDownloadAlt className={classes.icons} /></li>
             </ul>
         </nav>
       </div>
@@ -54,7 +54,7 @@ const useStyles = makeStyles((theme) => ({
       width: "300px",
       textAlign: "right",
       padding: "10px",
-      fontSize: "1.6rem",
+      fontSize: "1.3rem",
       webkitBorderRadius: "0 30px 30px 0",
       mozBorderRadius: "0 30px 30px 0",
       borderRadius: "0 30px 30px 0",

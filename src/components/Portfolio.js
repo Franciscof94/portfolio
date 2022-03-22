@@ -16,8 +16,8 @@ const Portfolio = () => {
 
   return (
     <div>
-      <h1 className={classes.title}>Portfolio</h1>
-      <h3 className={classes.projects}>My <span className={classes.span}>projects</span></h3>
+      <h1 className={classes.title}>Portafolio</h1>
+      <h3 className={classes.projects}>Mis <span className={classes.span}>proyectos</span></h3>
       <div className={classes.container}>
 
         {

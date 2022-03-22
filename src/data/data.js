@@ -18,7 +18,7 @@ const img = [
       id: 0,
       alt: 'Drinks',
       url: `${Drinks}`,
-      title: 'Drinks Store',
+      title: 'E-commerce de bebidas',
       icons : [
       {
         icon: <FaHtml5 fontSize='32' color='#DD4B25' />,
@@ -33,17 +33,17 @@ const img = [
         name: 'JavaScript'
       }
       ], 
-      description: 'Drink Shop - Final project for the JavaScript course at CoderHouse',
+      description: 'Tienda de bebidas - Proyecto final para el curso de Java Script en Coder House',
       link: 'https://franciscof94.github.io/E-commerce/index.html'
     },
     {
       id: 1,
       alt: 'Pinasco',
       url: `${Pinasco}`,
-      title: 'Maximo Pinasco(in process)',
+      title: 'Maximo Pinasco(en proceso)',
       icons : [
           {
-            icon: <FaReact fontSize='32' color='#DD4B25' />,
+            icon: <FaHtml5 fontSize='32' color='#DD4B25' />,
             name: 'HTML'
           },
           {
@@ -59,14 +59,14 @@ const img = [
             name: 'Node Express'
           }
       ],
-      description: 'Web page (in process) for the Maximo Pinasco car dealership made with HTML, CSS and JavaScript, apart from using Node express and Nodemailer for contact forms.',
+      description: 'Pagina Web (en proceso) para el concesionario de autos Maximo Pinasco, desarrollada en HTML, CSS y JavaScript, aparte utilice Node Express y Nodemailer para el envio de formularios.',
       link: ''
     },
     {
       id: 2,
       alt: 'Tinder',
       url: `${Tinder}`,
-      title: 'Tinder Clone',
+      title: 'Clon de Tinder',
       icons : [
         {
           icon: <FaReact fontSize='32' color='#00DBF7' />,
@@ -85,14 +85,14 @@ const img = [
           name: 'Redux'
         }
         ],
-      description: 'Tinder clone developed in React Js using Firebase, Redux and Material UI',
+      description: 'Clon de Tinder desarrollado en React Js, utilizando tambien Firebase, Redux y Material UI',
       link: 'https://clone-tinder-simpsons.netlify.app/' 
     },
     {
       id: 3,
       alt: 'Netflix',
       url: `${Netflix}`,
-      title: 'Netflix Clone',
+      title: 'Clon de Netflix',
       icons : [
         {
           icon: <FaReact fontSize='32' color='#00DBF7' />,
@@ -111,7 +111,7 @@ const img = [
           name: 'Redux'
         }
         ],
-      description: 'Netflix clone developed in React Js using Firebase, Redux and Material UI',
+      description: 'Clon de Netflix desarrollado en React Js, utilizando tambien Firebase, Redux y Material UI',
       link: 'https://nifty-bhabha-c18f88.netlify.app/'
     }
   ]

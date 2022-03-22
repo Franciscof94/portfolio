@@ -17,7 +17,7 @@ const AboutMe = () => {
   const classes = useStyles();
   return (
     <div className={classes.root}>
-      <h1 className={classes.title}>About <span className={classes.me}>Me</span></h1>
+      <h1 className={classes.title}>Sobre <span className={classes.me}>mí</span></h1>
       <div className={classes.container}>
         <div>
           <img src={ProfileImage} alt="ProfileImage" className={classes.img} />
@@ -25,16 +25,15 @@ const AboutMe = () => {
         </div>
         <div className={classes.skillsContainer}>
           <div className={classes.pContainer}>
-            <p>
-            I started a year ago with Front-end development. I have <span className={classes.me}>experience</span> in HTML, CSS and JavaScript.
-            Besides I have knowledge about React Js, Sass, Material Ui and Bootstrap.</p>
 
-            <p>On a personal level, I constantly seek to <span className={classes.me}>improve</span> my skills and am aware of the latest front-end development tools. </p>
+            <p>Comencé hace un año con el desarrollo Front-end de forma autodidacta, con el tiempo fui realizando cursos, entre ellos el de Java Script y React Js en Coder House.
+            Aparte de esos lenguajes, tengo <span className={classes.me}>experiencia</span> en HTML, CSS, Jquery, Material UI, Styled Componentes, Firebase y Redux.</p>
 
-            <p>In addition to that, I have the ability to <span className={classes.me}>adapt</span> to any kind of equipment environment. I also have the ability to work
-            independently by keeping schedule and meeting agreed deadlines. </p>
+            <p>A nivel personal, busco constantemente <span className={classes.me}>mejorar</span> mis habilidades y siempre estoy al tanto de las últimas herramientas de desarrollo front-end.</p>
 
-            <p>Below is a list of my current technical skills:</p>
+            <p>Además de eso, tengo la capacidad de <span className={classes.me}>adaptarme</span> a cualquier equipo de trabajo, resolver problemas y contribuir nuevas ideas. También realizo proyectos de forma independiente cumpliendo con los plazos acordados.</p>
+
+            <p>A continuación se muestra una lista de mis habilidades actuales:</p>
           </div>
           <div className={classes.skills}> 
               <img src={Html} alt='Html' />
@@ -95,9 +94,9 @@ const useStyles = makeStyles((theme) => ({
       gridTemplateColumns: "repeat(5, 0.09fr)",
       gap: "10px",
       marginTop: "30px",
-      cursor: "pointer",
       "& img": {
         height: "7vh",
+        cursor: "pointer",
         [theme.breakpoints.down("sm")] : {
           height: "5vh"
       },
