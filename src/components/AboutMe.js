@@ -27,7 +27,7 @@ const AboutMe = () => {
         <div className={classes.skillsContainer}>
           <div className={classes.pContainer}>
 
-            <p>Comencé hace un año con el desarrollo Front-end de forma autodidacta, con el tiempo fui realizando cursos, entre ellos el de Java Script y React Js en Coder House.
+            <p>Comencé hace un año y medio con el desarrollo Front-end de forma autodidacta, con el tiempo fui realizando cursos, entre ellos el de Java Script y React Js en Coder House.
             Aparte de esos lenguajes, tengo <span className={classes.me}>experiencia</span> en HTML, CSS, Jquery, Material UI, Styled Componentes, Firebase y Redux.</p>
 
             <p>A nivel personal, busco constantemente <span className={classes.me}>mejorar</span> mis habilidades y siempre estoy al tanto de las últimas herramientas de desarrollo front-end.</p>
