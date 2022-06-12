@@ -20,7 +20,7 @@ const style = {
 
 const BasicModal = ({ open, handleClose, filterArray }) => {
   const classes = useStyles();
-  console.log(data.iconHTML)
+
   const array = data.filter((i) => i.id === filterArray)
 
   return (
