@@ -2,7 +2,7 @@ import { makeStyles } from '@material-ui/core';
 import { FaGithub } from "@react-icons/all-files/fa/FaGithub";
 import { FaLinkedin } from "@react-icons/all-files/fa/FaLinkedin";
 import { FaCloudDownloadAlt } from "@react-icons/all-files/fa/FaCloudDownloadAlt";
-import CV from '../Images/Francisco Ferraro-combinado.pdf'
+import CV from '../Images/FrnciscoFerraro.pdf'
 
 
 const ContactMe = () => {

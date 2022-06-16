@@ -9,7 +9,7 @@ import Sass from '../Images/sass.png';
 import Bootstrap from '../Images/bootstrap.png';
 import Firebase from '../Images/firebase.png';
 import Redux from '../Images/redux.png';
-import Git from './/Images/Git.png';
+import Git from '../Images/Git.png';
 import MaterialUi from '../Images/material-ui.png';
 import Line from './Line';
 
