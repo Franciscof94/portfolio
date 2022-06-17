@@ -160,7 +160,7 @@ const img = [
         },
         ],
       description: 'Tienda de productos desarrollada en React Js con redux(filtrar productos, agregar productos al carrito, eliminarlosy contabilizarlos) y styled components para los estilos.',
-      link: 'https://franciscof94.github.io/fake-store-react-redux/products'
+      link: 'https://franciscof94.github.io/fake-store-react-redux'
     },
     {
       id: 6,
